@@ -294,6 +294,22 @@
         transform:rotate(180deg);
     }
 
+    /* CONTADOR DE VISITAS */
+    .contador-box{
+        background:#10233f;
+        padding:25px;
+        border-radius:20px;
+        text-align:center;
+        box-shadow:0 5px 20px rgba(0,0,0,0.4);
+        margin-top:25px;
+    }
+
+    .contador-box h3{
+        color:#64b5f6;
+        margin-bottom:10px;
+        font-size:1.5rem;
+    }
+
     #modoOscuro{
         position:fixed;
         bottom:20px;
@@ -352,6 +368,7 @@
         <li><a href="#propiedades">Propiedades</a></li>
         <li><a href="#aplicaciones">Aplicaciones</a></li>
         <li><a href="#simulador">Simulador</a></li>
+        <li><a href="#contador">Visitas</a></li>
         <li><a href="#faq">Preguntas Frecuentes</a></li>
         <li><a href="#referencias">Referencias</a></li>
     </ul>
@@ -517,6 +534,20 @@
 
     <div class="chart-wrap">
         <canvas id="grafica"></canvas>
+    </div>
+</section>
+
+<section id="contador">
+    <h2>Contador de Visitas</h2>
+    <div class="contador-box">
+        <h3>Visitas al proyecto</h3>
+
+        <!-- Reemplaza TU_NUMERO_UNICO por el número que te dé hitwebcounter -->
+        <img
+            src="https://hitwebcounter.com/counter/counter.php?page=TU_NUMERO_UNICO&style=0038&nbdigits=6&type=page&initCount=0"
+            alt="Contador de visitas"
+            style="max-width:100%; height:auto;"
+        >
     </div>
 </section>
 
